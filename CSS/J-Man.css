@@ -1,0 +1,147 @@
+/*
+	Jorin's Writing Website
+*/
+
+/*font-family: 'Playfair Display', serif;  font-family: 'Playfair Display SC', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Cormorant Garamond', serif;              cool crossed w
+font-family: 'Goudy Bookletter 1911', serif;             very close to C G, but a bit softer
+font-family: 'Gabriela', serif;
+*/
+body{
+	margin:30px;
+	padding:15px;
+	background-image: url('../Images/alder-leaf_tile2.png'); 
+	/*background-size: cover; */
+	background-repeat: round; /*also round is an option */
+	 background-size: 85px 155px;
+
+}
+
+header {
+	padding: 10px;
+	background-color: #dd3300;
+	opacity: 10%;
+	background-image: url('../Images/map2.png');
+	background-size: cover;
+	text-align: center;
+}
+
+nav a {
+	display: inline-block;
+	margin: 15px;
+	border-radius: 10px;
+	background-color: #66ff00;
+	opacity: 10%;
+	text-decoration: none;
+	padding: 3px;
+	width: 18%;
+}
+
+h1 {
+	text-align: center;
+	color: #993300;
+	font-size: 280%; /* 40 PX FULL SCREEN */
+	font-family: 'Merriweather', serif;
+	 text-shadow: 2px 3px #777777;
+	 	 padding: 0px;
+}
+
+h2 {
+	color: #FFFFFF;
+	font-size: 250%; /* 35 PX FULL SCREEN */
+	font-family: 'Goudy Bookletter 1911', serif;
+	 text-shadow: 3px 3px #777777;
+	 padding: 0px;
+	}
+
+a{
+	color: #993300;
+	text-align: center;
+	font-family: 'Gabriela', serif;
+	font-size: large;
+}
+
+.active {
+		background-color: #993300;
+	color: #66ff00;
+}
+
+main{
+	display: block;
+}
+
+.center{
+	text-align: center;
+	width: 95%;
+	display: block;
+	padding: 15px;
+	overflow: auto;
+}
+
+img{
+	width: 75%;
+	display: block;
+	margin-left: auto;
+ 	margin-right: auto;
+	border: solid;
+	border-color: #ffffff;
+	border-width: 2px;
+	border-radius: 10px;
+	padding: 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+chapters {
+	font-size: 150%;
+	font-family: 'Aref Ruqaa', serif;
+	text-align: center;
+}
+
+p{
+	color: #FFFFFF;
+	font-size: 145%; /* 30 PX FULL SCREEN */
+	font-family: 'Aref Ruqaa', serif;
+	 text-shadow: 2px 3px #777777;
+}
+
+
+.p1{
+	color: #FFFFFF;
+	font-size: 145%; /* 30 PX FULL SCREEN */
+	font-family: 'Merriweather', serif;
+	 text-shadow: 2px 3px #777777;
+}
+
+.p2{
+	color: #eeeeee;
+	font-size: 130%; /* 25 PX FULL SCREEN */
+		font-family: 'Merriweather', serif;
+		 text-shadow: 2px 3px #777777;
+}
+	.p3{/*footer */
+		color: #993300;
+		font-size: 130%; /* 25 PX FULL SCREEN */
+		font-family: 'Gabriela', serif;
+		 text-shadow: 2px 3px #777777;
+}
+
+.quote{
+	width: 74%;
+	float: right;
+	margin-right: 7em;
+} 
+
+
+footer {
+	padding: 10px;
+	opacity: 10%;
+	text-align: center;
+}	
+
+img.logo{
+	width: 6%;
+	padding: 0px;
+	opacity: 100%;
+}
